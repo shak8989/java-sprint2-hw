@@ -58,7 +58,7 @@ public class MonthlyReport {//ежемесячный отчет
     }
 
 
-    public int getTopProduct(int mountNumber) {  // самый прибыльный товар/максимальная трата
+    public  int getTopProduct(int mountNumber) {  // самый прибыльный товар/максимальная трата
         String itemname = "";
         int maxProfit = 0;
         HashMap<String, Integer> sum = new HashMap<>();
@@ -76,7 +76,7 @@ public class MonthlyReport {//ежемесячный отчет
     }
 
 
-    public int getTopSpend(int mountNumber) {// самая бльшая трата/минимальная трата
+    public   int getTopSpend(int mountNumber) {// самая бльшая трата/минимальная трата
         String nameItem = "";
         int sumSpend = 0;
         HashMap<String, Integer> sum = new HashMap<>();
